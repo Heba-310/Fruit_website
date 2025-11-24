@@ -1,0 +1,523 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+p{
+    font-family: 'Montserrat' ,'sans-serif';
+}
+
+.nav-item a{
+
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+transition: all 0.4s;
+}
+.nav-item a:hover{
+    color: rgb(20, 219, 20);
+}
+.navbar-brand img{
+
+  height: 50px; 
+  width: 100px;
+}
+.search{
+    border: none;
+    outline: none;
+height: 45px;
+border: 2px solid rgb(20, 219, 20);
+background-color: transparent;
+border-radius: 20px 0px 0px 20px;
+border-right: none;
+}
+
+.btn1{
+outline: none;
+border: none;
+height: 45px;
+border: 2px solid rgb(20, 219, 20);
+background-color: rgb(20, 219, 20);;
+border-radius: 0px 20px 20px 0px;
+color: white;
+
+  margin-left: -10px;  
+}
+.search:focus{
+    box-shadow: none;
+    border: 2px solid rgb(20, 219, 20);
+}
+.btn1:hover{
+    background-color: rgb(13, 172, 13);
+}
+ .navbar i{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    margin-top: -6px;
+
+}
+form i:hover{
+    color:rgb(20, 219, 20);
+
+}.main{
+background: url("b.jpg") no-repeat;
+background-size: cover;
+min-height: 100vh;
+width: 100%;
+height: auto;
+
+}
+.main h1{
+font-size: 5rem;
+font-family: 'Righteous' ,cursive;
+font-weight: bold;
+padding-bottom: 30px;
+
+}
+.main p:nth-child(1){
+font-size: 18px;
+font-weight: 500;
+padding-top: 100px;
+margin-left: 10px;
+
+}
+.main p:nth-child(2){
+font-size: 18px;
+color: gray;
+
+
+}
+.line hr{
+    border: 3px solid rgb(20, 219, 20);
+
+width:33%;
+margin-top: -20px;
+background-color:rgb(20, 219, 20);
+opacity: 1 !important;
+}
+.btn12{
+    height: 50px;
+   width:25%;
+  
+    background-color:rgb(20, 219, 20);
+    border: 2px solid rgb(20, 219, 20); 
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 0px;
+    
+
+}
+.btn12:hover{
+background-color: rgb(13, 172, 13);
+}
+
+
+.btn22{
+    border: none;
+    outline: none;
+height:50px;
+    width:25%;
+    background:transparent;
+    border: 2px solid rgb(13, 172, 13);
+    border-radius: 20px;
+    color:rgb(13, 172, 13);
+      margin-top:10px;
+}
+.btn22:hover{
+    border: none;
+
+ background-color:rgb(20, 219, 20);
+ color: white;
+}
+.about{
+
+    background: url("gi.jpg") no-repeat;
+    background-size: cover;
+   width: 100%;
+    height: 100vh;
+}
+.about h1{
+font-size: 3rem;
+font-family: 'Righteous' ,cursive;
+font-weight: bold;
+padding-bottom: 40px;
+}
+.about p:nth-child(1){
+font-size: 18px;
+font-weight: 500;
+padding-top: 200px;
+margin-left: 10px;
+
+}
+.about p:nth-child(2){
+font-size: 18px;
+color: gray;
+
+
+}
+.welcome {
+  background-color:rgb(20, 219, 20);   /* الخلفية الخضراء */
+  padding: 40px 0;           /* مساحة جوه */
+  color: white;
+}
+
+.welcome p {
+  color: #fff;
+}
+
+.welcome h1 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.welcome .card {
+  width: 100%;               /* ياخد عرض العمود */
+  max-width: 18rem;          /* لا يزيد عن 18rem في الديسكتوب */
+  margin: 0 auto 5px auto;  
+  cursor: pointer;/* في النص مع مسافة تحت */
+}
+.welcome .card p{
+    color: black;
+}
+.card i{
+    color: rgb(20, 219, 20);
+}
+.hh hr{
+    border: 3px solid white;
+margin-right:-10px;
+width:15%;
+background-color:white;
+opacity: 1 !important;
+display: block;
+
+}
+.ww hr{
+    border: 3px solid rgb(20, 219, 20);
+margin-right:-10px;
+width:15%;
+background-color:rgb(20, 219, 20);
+opacity: 1 !important;
+display: block;
+
+}
+.rating{
+    background-color: rgb(245, 241, 241);
+}
+.rating p:nth-child(1){
+font-size: 18px;
+font-weight: 500;
+padding-top: 40px;
+
+}
+.stars i{
+
+    color: gold;
+    margin-right: 5px;
+
+}
+.rating img{
+height: 280px;
+width: 280px;
+
+}
+.rating .btn33{
+    height:35px;
+    width:60%;
+    background-color:rgb(20, 219, 20);
+    border: 2px solid rgb(20, 219, 20); 
+    border-radius: 20px;
+    color: white;
+
+}
+.rating .card {
+  width: 100%;               /* ياخد عرض العمود */
+  max-width: 18rem;          /* لا يزيد عن 18rem في الديسكتوب */
+  margin: 0 auto 5px auto;  
+  cursor: pointer
+}
+.rating .card-body p{
+    margin-left: -160px;
+   margin-top: -20px;
+}
+.rating .btn34{
+    height:30px;
+    width:13%;
+    background-color:rgb(20, 219, 20);
+    border: 2px solid rgb(20, 219, 20); 
+    border-radius: 20px;
+    color: white;
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 500px;
+
+}
+.rating .btn12{
+    height: 35px;
+    width: 150px;
+margin-right: 85px;
+
+}
+@media(width:320px){
+    .rating .btn12{
+        margin-right: -15px;
+}
+
+}
+.sale{
+  
+    background-color:rgb(20, 219, 20);
+    color: #fff;
+}
+.sale i{
+    margin-right: 10px;
+}
+    
+.sale .btn23{
+     border: none;
+    outline: none;
+height:50px;
+    width:75%;
+    background:white;
+    border-radius: 20px;
+    color:rgb(13, 172, 13);
+    margin:0 auto;
+    display: block;
+}
+.store{
+background-color:rgb(245, 241, 241);
+
+}
+.store .ko{
+border: 3px solid rgb(20, 219, 20);
+width:15%;
+background-color:rgb(20, 219, 20);
+opacity: 1 !important;
+display: block;
+height: 6px;
+
+}
+.store p {
+  color: black;
+  padding-top: 20px;
+  
+}
+
+.store h1 {
+  color: black;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.store .card {
+  width: 100%;               /* ياخد عرض العمود */
+  max-width: 18rem;          /* لا يزيد عن 18rem في الديسكتوب */
+  margin: 0 auto 5px auto;  
+  cursor: pointer;/* في النص مع مسافة تحت */
+}
+.store .card:hover {
+background-color:rgb(20, 219, 20);
+}
+.store i{
+    color: black;
+}
+.coco{
+    margin-top: 20px;
+    background-color: rgb(245, 241, 241);
+    height: auto;
+    width: 100%;
+}
+.coco .card {
+  width: 100%;               /* ياخد عرض العمود */
+  max-width: 620px;          /* لا يزيد عن 18rem في الديسكتوب */
+  margin: 0 auto 5px auto;  
+  cursor: pointer;/* في النص مع مسافة تحت */
+}
+
+.coco h1{
+    font-family: 'Righteous' ,cursive;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+.final{
+    background: url("en.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+}
+.final .pp{
+     border: 3px solid white;
+height: 5px;
+width:27%;
+background-color:white;
+opacity: 1 !important;
+
+
+}
+.final h1 ,.final p{
+    color: #fff;
+}
+.final h1{
+    padding-bottom: 20px;
+}
+.final p{
+    padding-top: 20px;
+}
+.circle{
+
+   height: 30px; 
+   width: 30px;
+   border-radius: 50%;
+   text-align: center;
+   
+   background-color: #fff;
+}
+.btn125{
+    outline: none;
+border: none;
+height: 40px;
+border: 2px solid white;
+background-color: white;
+border-radius:20px;
+color: black;
+width: 40%;
+margin-top: 10px;
+text-align: center;
+margin-left: 80px;
+}
+.final form{
+    transform: translateX(-300px);
+}
+.final form input{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.final form textarea{
+    width: 100%;
+    height:70px;
+}
+@media(max-width:800px){
+.final form{
+    transform: translateX(0px);
+}
+
+}
+.end{
+
+    background-color:#212529;
+    width: 100%;
+    min-height:15vh;
+    height: auto;
+
+    color:rgb(20, 219, 20);
+    
+
+}
+
+.end span{
+    color:white;
+}
+.s1{
+     text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+      margin-left: 10px;
+      padding: 9px;
+      cursor: pointer;
+
+}
+
+.s1:hover{
+    background-color:rgb(20, 219, 20);
+    border: none;
+}
+
+
+ .navbar #badgenumber {
+
+display: inline-block;
+min-width: 18px;
+min-height: 18px;
+width:auto;
+height: auto;
+border-radius:50%;
+background-color: red;
+text-align: center;
+
+font-size: 10px;
+padding: 3px;
+color: #fff;
+margin-left: -18px;
+font-weight: bolder;
+}
+
+.btn33:hover{
+    background-color: white;
+    color: rgb(20, 219, 20);
+    border: 2px solid rgb(20, 219, 20);
+}
+
+
+@media (max-width: 426px) {
+  .end .col-lg-3 {
+    display: flex;
+    justify-content: center; /* يخلي الأيقونات في النص */
+    gap: 5px; /* مسافة بينهم */
+    margin-top: 10px; 
+    padding-bottom: 20px;/* نزود مسافة فوق شوية عشان الشكل */
+  }
+
+}
+@media(width:1024px){
+    .about p, .about h1{
+color:rgb(13, 172, 13);
+    }
+   .about .btn12{
+        background-color: #212529;
+        border: none;
+    }
+    .final form{
+        transform:none;
+    }
+}
+@media(max-width:768px){
+
+    .btn125{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 768px) {
+  /* الكولابس يمين */
+  #navbarSupportedContent {
+    justify-content: flex-end !important;
+    text-align: right !important;
+  }
+
+  /* السلة في النص */
+  .navbar .bi-bag-check {
+    position: absolute !important;
+    left: 50%!important;
+    transform: translateX(-50%)!important;
+  }
+}
+  /* خلي الـ collapse flex */
+
+
+
+
+
+
